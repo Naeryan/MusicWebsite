@@ -1,0 +1,7 @@
+.body{
+	background-image: url(BG.svg);
+	background-attachment: scroll;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,38 @@
+<form class = "main"> 
+
+	<div class = "rect rect-facebook" (click) = authService.facebookLogIn()>
+		<img class = "logo" src="assets/facebookLogo.png">
+		<div class = "text textAfterImg">Continue with Facebook</div>
+	</div>
+
+	<div class = "rect rect-google" (click) = authService.googleLogIn()>
+		<img class = "logo" src="assets/googleLogo.png">
+		<div class = "text textAfterImg">Continue with Google</div>
+	</div>
+
+	<div class = "rect rect-or text">
+		or
+	</div>
+
+	<div class = "rect rect-input">
+		<input class="input" type="e-mail" placeholder="Your e-mail address or profile URL *">
+	</div>
+
+	<div class = "rect rect-input">
+		<input class="input" type="pass" placeholder="Password">
+	</div>
+
+	<div class = "rect rect-cont text">
+		Continue
+	</div>
+
+	<div class = "rect rect-help">
+		<a class = "text-rout">Need help?</a>
+	</div>
+
+	<div class = "rect rect-term">
+		By signing in, you are agree to our 
+		<a class= "text-rout">Terms of Use</a>
+	</div>
+	
+</form>

@@ -1,0 +1,17 @@
+.header {
+	background-color: #282828;
+	height: 70px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.header-block {
+	margin-top: 0px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+.header-item {
+	text-align: center;
+	vertical-align: middle;
+}

@@ -1,0 +1,111 @@
+@font-face{
+	font-family: 'Gotham Pro';
+	src: url('../GothamPro/Normal/GothamPro.eot');
+	src: url('../GothamPro/Normal/GothamPro.eot?iefix') format('eot'),
+	url('../GothamPro/Normal/GothamPro.woff') format('woff'),
+	url('../GothamPro/Normal/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.main {
+	height: 540px;	
+	width: 450px;	
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	margin: auto;
+}
+
+.logo {
+	margin: 1px;
+	float: left;
+	height: 38px;
+	width: 38px;
+}
+
+.input {
+	width: 99%;
+	height: 85%;
+}
+
+.text {
+	line-height: 36px;
+}
+
+.text-rout {
+	color: #3588DD;
+	font-family: "Gotham Pro";
+	font-size: 9px;
+}
+
+.textAfterImg {
+	margin-left: 60px;
+}
+
+.rect {
+	width: 400px;
+	height: 40px;
+
+	margin: auto;
+	margin-top: 11px;
+
+	border-radius: 3px;
+
+	font-family: "Gotham Pro";	
+	font-size: 18px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.rect-facebook {
+	cursor: pointer;
+	margin-top: 117px;
+	background-color: #2D4B91;
+}
+
+.rect-google {
+	cursor: pointer;
+	background-color: #4285F4;
+}
+
+.rect-or {
+	text-align: center;
+	color: #000000;
+	font-weight: 300;
+}
+
+.rect-input {
+	border: 1px solid #000000;
+}
+
+.rect-cont {
+	cursor: pointer;
+	background-color: #E84F3C;
+	text-align: center;
+}
+
+.rect-help {
+	height: 8px;
+	text-align: right;
+	margin-top: 9px;
+}
+
+.rect-term {
+	height: 8px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 9px;
+	color: rgba(0,0,0,0.6);
+}
+
+input[type="e-mail"]::-webkit-input-placeholder {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+} 
+
+input[type="pass"]::-moz-placeholder {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+}
